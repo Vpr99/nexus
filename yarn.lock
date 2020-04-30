@@ -480,6 +480,11 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
+"@kwsites/exec-p@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@kwsites/exec-p/-/exec-p-0.4.0.tgz#ab3765d482849ba6e825721077c248cf9f3323b7"
+  integrity sha512-44DWNv5gDR9EwrCTVQ4ZC99yPqVS0VCWrYIBl45qNR8XQy+4lbl0IQG8kBDf6NHwj4Ib4c2z1Fq1IUJOCbkZcw==
+
 "@nexus/logger@^0.1.0-next.1":
   version "0.1.0-next.1"
   resolved "https://registry.yarnpkg.com/@nexus/logger/-/logger-0.1.0-next.1.tgz#34a80cfd5f3c0e192ad147bc9ba793b33780846b"
@@ -5272,6 +5277,14 @@ simple-git@^1.126.0:
   resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-1.132.0.tgz#53ac4c5ec9e74e37c2fd461e23309f22fcdf09b1"
   integrity sha512-xauHm1YqCTom1sC9eOjfq3/9RKiUA9iPnxBbrY2DdL8l4ADMu0jjM5l5lphQP5YWNqAL2aXC/OeuQ76vHtW5fg==
   dependencies:
+    debug "^4.0.1"
+
+simple-git@^2.0.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-2.2.0.tgz#eaee45250136625d79a4198726933fcd9f1abd16"
+  integrity sha512-zD4qLN3xZLxxc+QfTIn3zLs8faglQaLCGhhKmXV+SsQi8d6S6P8XxFso0WyVX3y0mftdFXpvbnph1eFuUuFscg==
+  dependencies:
+    "@kwsites/exec-p" "^0.4.0"
     debug "^4.0.1"
 
 sisteransi@^1.0.4:
